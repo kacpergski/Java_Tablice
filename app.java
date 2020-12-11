@@ -102,9 +102,44 @@ class App {
 		System.out.println("--------------------------");
 		
 		
-		/* System.out.println("---------ZADANIE 3-----------------");
+		System.out.println("---------ZADANIE 3-----------------");
 		System.out.println();
 		System.out.println();
-		System.out.println(); */
+		System.out.println(); 
+		
+		int[] index = {2,3,4,1,2,1};
+		
+		
+		double[] oceny = new double[6];
+		oceny[0] = 5;
+		oceny[1] = 1;
+		oceny[2] = 3.5;
+		oceny[3] = 1;
+		oceny[4] = 6;
+		oceny[5] = 4.5;
+		
+		System.out.println("-------------------------------------");
+		System.out.print("Student: ");
+		System.out.print(index[0]);
+		System.out.print(index[1]);
+		System.out.print(index[2]);
+		System.out.print(index[3]);
+		System.out.print(index[4]);
+		System.out.print(index[5]);
+		System.out.println();	
+		
+		//System.out.println("--------------------------");	
+			
+		//System.out.println("--------------------------");
+		System.out.print("Oceny: ");
+		System.out.print(oceny[0]+", ");
+		System.out.print(oceny[1]+", ");
+		System.out.print(oceny[2]+", ");
+		System.out.print(oceny[3]+", ");
+		System.out.print(oceny[4]+", ");
+		System.out.print(oceny[5]+", ");
+		System.out.println();	
+		System.out.println("-------------------------------------");
+	
 }
 }
