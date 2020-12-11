@@ -51,5 +51,60 @@ class App {
 		System.out.println("wiek: " + age);
 		
 	System.out.println("--------------------------");
+		
+	System.out.println("---------ZADANIE 2-----------------");
+	System.out.println();
+	System.out.println();
+	System.out.println();
+		
+		int a=0;
+		int[] postcode = new int[5];
+		postcode[0] = 7; 
+		postcode[1] = 2;
+		postcode[2] = 6;
+		postcode[3] = 0;
+		postcode[4] = 0;
+		
+		
+		System.out.println("--------------------------");
+		System.out.print(postcode[0]);
+		System.out.print(postcode[1]);
+		System.out.print(postcode[2]);
+		System.out.print(postcode[3]);
+		System.out.println(postcode[4]);
+		System.out.println("--------------------------");
+		
+		postcode[4] = 2;
+		System.out.println("--------------------------");
+		System.out.print(postcode[0]);
+		System.out.print(postcode[1]);
+		System.out.print(postcode[2]);
+		System.out.print(postcode[3]);
+		System.out.println(postcode[4]);
+		System.out.println("--------------------------");
+		
+		postcode[4] = 4;
+		System.out.println("--------------------------");
+		System.out.print(postcode[0]);
+		System.out.print(postcode[1]);
+		System.out.print(postcode[2]);
+		System.out.print(postcode[3]);
+		System.out.println(postcode[4]);
+		System.out.println("--------------------------");
+		
+		postcode[4] = 5;
+		System.out.println("--------------------------");
+		System.out.print(postcode[0]);
+		System.out.print(postcode[1]);
+		System.out.print(postcode[2]);
+		System.out.print(postcode[3]);
+		System.out.println(postcode[4]);
+		System.out.println("--------------------------");
+		
+		
+		/* System.out.println("---------ZADANIE 3-----------------");
+		System.out.println();
+		System.out.println();
+		System.out.println(); */
 }
 }
