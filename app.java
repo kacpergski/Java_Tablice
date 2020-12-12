@@ -141,5 +141,52 @@ class App {
 		System.out.println();	
 		System.out.println("-------------------------------------");
 	
+		System.out.println("---------ZADANIE 4-----------------");
+		System.out.println();
+		System.out.println();
+		System.out.println(); 
+		
+		//int oceny2 = new int[5];
+		int[] o = {1,2,3,1,2};
+		int temp;
+		System.out.print("Wejściowo: ");
+		System.out.print(o[0]+", ");
+		System.out.print(o[1]+", ");
+		System.out.print(o[2]+", ");
+		System.out.print(o[3]+", ");
+		System.out.println(o[4]+", ");
+		//System.out.print(o[5]+", ");
+		o[1]=5;
+		System.out.print("3 ostatnie: ");
+		System.out.print(o[2]+", ");
+		System.out.print(o[3]+", ");
+		System.out.println(o[4]+", ");
+		
+		//temp = o[0] < o[1] ? o[1]  : o[0];
+		//o[0]=temp;
+		//o[1]=temp;
+		//System.out.print(o[0]+", ");
+		//System.out.println(o[1]+", ");
+		temp = o[1];
+		o[1] = o[4];
+		o[4] = temp;
+		
+		temp = o[1];
+		o[1] = o[3];
+		o[3] = temp;
+		
+		temp = o[2];
+		o[2] = o[3];
+		o[3] = temp;
+		
+		
+		
+		System.out.print("Od najmniejszych: ");
+		System.out.print(o[0]+", ");
+		System.out.print(o[1]+", ");
+		System.out.print(o[2]+", ");
+		System.out.print(o[3]+", ");
+		System.out.println(o[4]+", ");
+		
 }
 }
